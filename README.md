@@ -22,4 +22,14 @@ Blockchain-developpement-ressources repository
 
 git clone https://github.com/frankiefab100/Blockchain-Development-Resources.git
 cd Blockchain-Development-Resources
+read files
+-----------------
+
+/...Terminal
+cd
+
+The SimpleStorage.sol file is a Solidity Contract i First deployed from the course.
+
+This is the Contract model i first Deployed to Sepolia works withn Solidity scrypts Next is to deploy to zkSync keep you updated...
+
 
