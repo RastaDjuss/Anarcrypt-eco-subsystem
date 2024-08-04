@@ -12,9 +12,6 @@ I am learning and watching this course...
 git clone https://github.com/Cyfrin/foundry-full-course-cu.git
 cd foundry-full-course-cu
 
-
-# npm run dev (dont know what goes next check readme...)
-
 ....
 Blockchain-developpement-ressources repository
 
