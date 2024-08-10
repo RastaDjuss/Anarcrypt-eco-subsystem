@@ -12,4 +12,15 @@ nvm install v18
 git clone https://github.com/Cyfrin/foundry-full-course-cu.git
 cd foundry-full-course-cu
 npm install
+npm fund
+
 # npm run dev (dont know what goes next check readme...)
+
+....
+Blockchain-developpement-ressources repository
+
+/...terminal
+git clone https://github.com/frankiefab100/Blockchain-Development-Resources.git
+cd Blockchain-Development-Resources
+npm install
+npm fund
