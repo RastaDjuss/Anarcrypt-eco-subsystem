@@ -1,0 +1,36 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     "/Users/justinlanouette/Chaos/ChaöS-Token/hello_world/target/release/build/rustversion-8de2d7db1f4f9cde/build_script_build-8de2d7db1f4f9cde"
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr42drop_in_place$LT$std..io..error..Error$GT$17h596fc670576a7351E', symObjAddr: 0x0, symBinAddr: 0x100002CD0, symSize: 0xB0 }
+  - { offsetInCU: 0xC77, offset: 0xC77, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr42drop_in_place$LT$std..io..error..Error$GT$17h596fc670576a7351E', symObjAddr: 0x0, symBinAddr: 0x100002CD0, symSize: 0xB0 }
+  - { offsetInCU: 0x132B, offset: 0x132B, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr42drop_in_place$LT$std..process..Command$GT$17he64ff7b97f290f73E', symObjAddr: 0xB0, symBinAddr: 0x100002D80, symSize: 0x250 }
+  - { offsetInCU: 0x2F2A, offset: 0x2F2A, size: 0x8, addend: 0x0, symName: '__ZN90_$LT$core..str..iter..Split$LT$P$GT$$u20$as$u20$core..iter..traits..iterator..Iterator$GT$4next17h980279b8e4fff016E', symObjAddr: 0x320, symBinAddr: 0x100002FF0, symSize: 0x220 }
+  - { offsetInCU: 0x4463, offset: 0x4463, size: 0x8, addend: 0x0, symName: '__ZN58_$LT$alloc..string..String$u20$as$u20$core..fmt..Debug$GT$3fmt17h289d966fb42f899aE', symObjAddr: 0x300, symBinAddr: 0x100002FD0, symSize: 0x20 }
+  - { offsetInCU: 0x4C2E, offset: 0x4C2E, size: 0x8, addend: 0x0, symName: __ZN18build_script_build4main17h61f08db756cacb39E, symObjAddr: 0x540, symBinAddr: 0x100003210, symSize: 0xCE0 }
+  - { offsetInCU: 0x1E, offset: 0x8196, size: 0x8, addend: 0x0, symName: '__ZN4core3fmt3num49_$LT$impl$u20$core..fmt..Debug$u20$for$u20$u8$GT$3fmt17hfb5011e21567bec3E', symObjAddr: 0x0, symBinAddr: 0x100003F10, symSize: 0x30 }
+  - { offsetInCU: 0xABD, offset: 0x8C35, size: 0x8, addend: 0x0, symName: '__ZN4core3fmt3num49_$LT$impl$u20$core..fmt..Debug$u20$for$u20$u8$GT$3fmt17hfb5011e21567bec3E', symObjAddr: 0x0, symBinAddr: 0x100003F10, symSize: 0x30 }
+  - { offsetInCU: 0xB25, offset: 0x8C9D, size: 0x8, addend: 0x0, symName: '__ZN4core3fmt3num50_$LT$impl$u20$core..fmt..Debug$u20$for$u20$u16$GT$3fmt17h2d2e978d7b7da863E', symObjAddr: 0x30, symBinAddr: 0x100003F40, symSize: 0x30 }
+  - { offsetInCU: 0xFE8, offset: 0x9160, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr23drop_in_place$LT$u8$GT$17h0714d550bcde9f56E', symObjAddr: 0x60, symBinAddr: 0x100003F70, symSize: 0x10 }
+  - { offsetInCU: 0x1014, offset: 0x918C, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr24drop_in_place$LT$u16$GT$17h855cdacb5a444025E', symObjAddr: 0x70, symBinAddr: 0x100003F80, symSize: 0x10 }
+  - { offsetInCU: 0x1D47, offset: 0x9EBF, size: 0x8, addend: 0x0, symName: __ZN18build_script_build5rustc5parse17hebc22993eed391e4E, symObjAddr: 0x490, symBinAddr: 0x1000043A0, symSize: 0x4E0 }
+  - { offsetInCU: 0x3289, offset: 0xB401, size: 0x8, addend: 0x0, symName: '__ZN71_$LT$build_script_build..rustc..Version$u20$as$u20$core..fmt..Debug$GT$3fmt17h8cebee0af4c3cc25E', symObjAddr: 0x970, symBinAddr: 0x100004880, symSize: 0xA0 }
+  - { offsetInCU: 0x32CB, offset: 0xB443, size: 0x8, addend: 0x0, symName: '__ZN71_$LT$build_script_build..rustc..Channel$u20$as$u20$core..fmt..Debug$GT$3fmt17h6829518e750794bcE', symObjAddr: 0xA10, symBinAddr: 0x100004920, symSize: 0xC0 }
+  - { offsetInCU: 0x332B, offset: 0xB4A3, size: 0x8, addend: 0x0, symName: '__ZN68_$LT$build_script_build..rustc..Date$u20$as$u20$core..fmt..Debug$GT$3fmt17hade79d33265f0068E', symObjAddr: 0xAD0, symBinAddr: 0x1000049E0, symSize: 0x95 }
+  - { offsetInCU: 0x34BD, offset: 0xB635, size: 0x8, addend: 0x0, symName: '__ZN4core3str4iter22SplitInternal$LT$P$GT$19next_back_inclusive17h424ddbb0a35e5fecE', symObjAddr: 0x80, symBinAddr: 0x100003F90, symSize: 0x1F0 }
+  - { offsetInCU: 0x388E, offset: 0xBA06, size: 0x8, addend: 0x0, symName: '__ZN4core3str4iter22SplitInternal$LT$P$GT$4next17h8b1f05e0fd8f32dcE', symObjAddr: 0x270, symBinAddr: 0x100004180, symSize: 0x220 }
+  - { offsetInCU: 0x476, offset: 0xC9BE, size: 0x8, addend: 0x0, symName: '__ZN4core3str21_$LT$impl$u20$str$GT$12trim_matches17he77688066b8f5760E', symObjAddr: 0x40, symBinAddr: 0x100004A80, symSize: 0x2C1 }
+  - { offsetInCU: 0x1E, offset: 0xE0C9, size: 0x8, addend: 0x0, symName: '__ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h24eebebd6192f6b5E', symObjAddr: 0x0, symBinAddr: 0x100004D50, symSize: 0xF0 }
+  - { offsetInCU: 0x61D, offset: 0xE6C8, size: 0x8, addend: 0x0, symName: '__ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h24eebebd6192f6b5E', symObjAddr: 0x0, symBinAddr: 0x100004D50, symSize: 0xF0 }
+  - { offsetInCU: 0x1E, offset: 0xEBE3, size: 0x8, addend: 0x0, symName: '__ZN99_$LT$alloc..collections..btree..map..BTreeMap$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he61c9925cd7981dbE', symObjAddr: 0x0, symBinAddr: 0x100004E40, symSize: 0x3A8 }
+  - { offsetInCU: 0xA24, offset: 0xF5E9, size: 0x8, addend: 0x0, symName: '__ZN99_$LT$alloc..collections..btree..map..BTreeMap$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17he61c9925cd7981dbE', symObjAddr: 0x0, symBinAddr: 0x100004E40, symSize: 0x3A8 }
+  - { offsetInCU: 0x1E, offset: 0x11849, size: 0x8, addend: 0x0, symName: '__ZN66_$LT$alloc..borrow..Cow$LT$B$GT$$u20$as$u20$core..fmt..Display$GT$3fmt17h05bd65e27f566e42E', symObjAddr: 0x0, symBinAddr: 0x1000051F0, symSize: 0x20 }
+  - { offsetInCU: 0x219, offset: 0x11A44, size: 0x8, addend: 0x0, symName: '__ZN66_$LT$alloc..borrow..Cow$LT$B$GT$$u20$as$u20$core..fmt..Display$GT$3fmt17h05bd65e27f566e42E', symObjAddr: 0x0, symBinAddr: 0x1000051F0, symSize: 0x20 }
+  - { offsetInCU: 0x1E, offset: 0x11C72, size: 0x8, addend: 0x0, symName: __ZN3std2rt10lang_start17h244b80bf49d55b66E, symObjAddr: 0x0, symBinAddr: 0x100005210, symSize: 0x30 }
+  - { offsetInCU: 0x5B, offset: 0x11CAF, size: 0x8, addend: 0x0, symName: '__ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h78df102775e4cf95E', symObjAddr: 0x30, symBinAddr: 0x100005240, symSize: 0x10 }
+  - { offsetInCU: 0x9F, offset: 0x11CF3, size: 0x8, addend: 0x0, symName: __ZN3std2rt10lang_start17h244b80bf49d55b66E, symObjAddr: 0x0, symBinAddr: 0x100005210, symSize: 0x30 }
+  - { offsetInCU: 0x15E, offset: 0x11DB2, size: 0x8, addend: 0x0, symName: '__ZN4core3ops8function6FnOnce40call_once$u7b$$u7b$vtable.shim$u7d$$u7d$17h2af3bc8c6aa2b008E', symObjAddr: 0x40, symBinAddr: 0x100005250, symSize: 0x10 }
+  - { offsetInCU: 0x1D8, offset: 0x11E2C, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr85drop_in_place$LT$std..rt..lang_start$LT$$LP$$RP$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17h37b9070aa10e292aE', symObjAddr: 0x50, symBinAddr: 0x100005260, symSize: 0x6 }
+  - { offsetInCU: 0x1E, offset: 0x11EAD, size: 0x8, addend: 0x0, symName: __ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17h9409f81752abbf55E, symObjAddr: 0x0, symBinAddr: 0x100005270, symSize: 0x8 }
+  - { offsetInCU: 0xBF, offset: 0x11F4E, size: 0x8, addend: 0x0, symName: __ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17h9409f81752abbf55E, symObjAddr: 0x0, symBinAddr: 0x100005270, symSize: 0x8 }
+...

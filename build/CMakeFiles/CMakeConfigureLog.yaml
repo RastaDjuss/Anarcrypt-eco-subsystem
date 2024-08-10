@@ -1,0 +1,1404 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:104 (project)"
+    message: |
+      The system is: Darwin - 22.6.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:104 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/clang 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/3.30.2/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:104 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_32474/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_32474.dir/build.make CMakeFiles/cmTC_32474.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI'
+        Building C object CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6   -v -Wl,-v -MD -MT CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.6.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_32474
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32474.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -o cmTC_32474
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.6.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_32474 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+        BUILD 13:20:30 Nov 10 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        Library search paths:
+        Framework search paths:
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:104 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:104 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:104 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_32474/fast]
+        ignore line: [/usr/local/bin/gmake  -f CMakeFiles/cmTC_32474.dir/build.make CMakeFiles/cmTC_32474.dir/build]
+        ignore line: [gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI']
+        ignore line: [Building C object CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6   -v -Wl -v -MD -MT CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx13.6.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W4HpaI -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_32474]
+        ignore line: [/usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32474.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -o cmTC_32474]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: x86_64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 13.6.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_32474 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.6.0] ==> ignore
+          arg [14.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_32474] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_32474.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:104 (project)"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+      BUILD 13:20:30 Nov 10 2023
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+      Library search paths:
+      Framework search paths:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/FindIconv.cmake:118 (check_c_source_compiles)"
+      - "CMakeLists.txt:155 (find_package)"
+    checks:
+      - "Performing Test Iconv_IS_BUILT_IN"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Z7uA6O"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Z7uA6O"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "Iconv_IS_BUILT_IN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Z7uA6O'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_a3203/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_a3203.dir/build.make CMakeFiles/cmTC_a3203.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Z7uA6O'
+        Building C object CMakeFiles/cmTC_a3203.dir/src.c.o
+        /usr/bin/clang -DIconv_IS_BUILT_IN  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_a3203.dir/src.c.o -MF CMakeFiles/cmTC_a3203.dir/src.c.o.d -o CMakeFiles/cmTC_a3203.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Z7uA6O/src.c
+        Linking C executable cmTC_a3203
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3203.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a3203.dir/src.c.o -o cmTC_a3203
+        ld: Undefined symbols:
+          _iconv, referenced from:
+              _main in src.c.o
+          _iconv_close, referenced from:
+              _main in src.c.o
+          _iconv_open, referenced from:
+              _main in src.c.o
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        gmake[1]: *** [CMakeFiles/cmTC_a3203.dir/build.make:100: cmTC_a3203] Error 1
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Z7uA6O'
+        gmake: *** [Makefile:127: cmTC_a3203/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/FindIntl.cmake:113 (check_c_source_compiles)"
+      - "CMakeLists.txt:159 (find_package)"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-30SvMd"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-30SvMd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "Intl_IS_BUILT_IN"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-30SvMd'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_edea9/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_edea9.dir/build.make CMakeFiles/cmTC_edea9.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-30SvMd'
+        Building C object CMakeFiles/cmTC_edea9.dir/src.c.o
+        /usr/bin/clang -DIntl_IS_BUILT_IN  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_edea9.dir/src.c.o -MF CMakeFiles/cmTC_edea9.dir/src.c.o.d -o CMakeFiles/cmTC_edea9.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-30SvMd/src.c
+        /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-30SvMd/src.c:1:10: fatal error: 'libintl.h' file not found
+        #include <libintl.h>
+                 ^~~~~~~~~~~
+        1 error generated.
+        gmake[1]: *** [CMakeFiles/cmTC_edea9.dir/build.make:79: CMakeFiles/cmTC_edea9.dir/src.c.o] Error 1
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-30SvMd'
+        gmake: *** [Makefile:127: cmTC_edea9/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:331 (check_include_file)"
+    checks:
+      - "Looking for libgen.h"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SPBWhq"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SPBWhq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_LIBGEN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SPBWhq'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_1e40b/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_1e40b.dir/build.make CMakeFiles/cmTC_1e40b.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SPBWhq'
+        Building C object CMakeFiles/cmTC_1e40b.dir/CheckIncludeFile.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_1e40b.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_1e40b.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_1e40b.dir/CheckIncludeFile.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SPBWhq/CheckIncludeFile.c
+        Linking C executable cmTC_1e40b
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e40b.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1e40b.dir/CheckIncludeFile.c.o -o cmTC_1e40b
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SPBWhq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:337 (check_include_file)"
+    checks:
+      - "Looking for sys/sysinfo.h"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-itmnY2"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-itmnY2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_SYSINFO"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-itmnY2'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_70e30/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_70e30.dir/build.make CMakeFiles/cmTC_70e30.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-itmnY2'
+        Building C object CMakeFiles/cmTC_70e30.dir/CheckIncludeFile.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_70e30.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_70e30.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_70e30.dir/CheckIncludeFile.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-itmnY2/CheckIncludeFile.c
+        /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-itmnY2/CheckIncludeFile.c:1:10: fatal error: 'sys/sysinfo.h' file not found
+        #include <sys/sysinfo.h>
+                 ^~~~~~~~~~~~~~~
+        1 error generated.
+        gmake[1]: *** [CMakeFiles/cmTC_70e30.dir/build.make:79: CMakeFiles/cmTC_70e30.dir/CheckIncludeFile.c.o] Error 1
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-itmnY2'
+        gmake: *** [Makefile:127: cmTC_70e30/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:342 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ALLOCA_H"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dNFUKO"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dNFUKO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_ALLOCA_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dNFUKO'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_747a1/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_747a1.dir/build.make CMakeFiles/cmTC_747a1.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dNFUKO'
+        Building C object CMakeFiles/cmTC_747a1.dir/src.c.o
+        /usr/bin/clang -DHAVE_ALLOCA_H  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_747a1.dir/src.c.o -MF CMakeFiles/cmTC_747a1.dir/src.c.o.d -o CMakeFiles/cmTC_747a1.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dNFUKO/src.c
+        Linking C executable cmTC_747a1
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_747a1.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_747a1.dir/src.c.o -o cmTC_747a1
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dNFUKO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:358 (check_include_file)"
+    checks:
+      - "Looking for strings.h"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AtcVxK"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AtcVxK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AtcVxK'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_b6e03/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_b6e03.dir/build.make CMakeFiles/cmTC_b6e03.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AtcVxK'
+        Building C object CMakeFiles/cmTC_b6e03.dir/CheckIncludeFile.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_b6e03.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_b6e03.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_b6e03.dir/CheckIncludeFile.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AtcVxK/CheckIncludeFile.c
+        Linking C executable cmTC_b6e03
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6e03.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b6e03.dir/CheckIncludeFile.c.o -o cmTC_b6e03
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AtcVxK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:363 (check_include_file)"
+    checks:
+      - "Looking for sys/select.h"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-f7gLBE"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-f7gLBE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_SYS_SELECT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-f7gLBE'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_a03dd/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_a03dd.dir/build.make CMakeFiles/cmTC_a03dd.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-f7gLBE'
+        Building C object CMakeFiles/cmTC_a03dd.dir/CheckIncludeFile.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_a03dd.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a03dd.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a03dd.dir/CheckIncludeFile.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-f7gLBE/CheckIncludeFile.c
+        Linking C executable cmTC_a03dd
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a03dd.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a03dd.dir/CheckIncludeFile.c.o -o cmTC_a03dd
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-f7gLBE'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:368 (check_include_file)"
+    checks:
+      - "Looking for sys/poll.h"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-7tH7Rk"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-7tH7Rk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_SYS_POLL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-7tH7Rk'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_72f38/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_72f38.dir/build.make CMakeFiles/cmTC_72f38.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-7tH7Rk'
+        Building C object CMakeFiles/cmTC_72f38.dir/CheckIncludeFile.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_72f38.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_72f38.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_72f38.dir/CheckIncludeFile.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-7tH7Rk/CheckIncludeFile.c
+        Linking C executable cmTC_72f38
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72f38.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_72f38.dir/CheckIncludeFile.c.o -o cmTC_72f38
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-7tH7Rk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:373 (check_include_file)"
+    checks:
+      - "Looking for poll.h"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ijUcK7"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ijUcK7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_POLL_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ijUcK7'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_56ba6/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_56ba6.dir/build.make CMakeFiles/cmTC_56ba6.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ijUcK7'
+        Building C object CMakeFiles/cmTC_56ba6.dir/CheckIncludeFile.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_56ba6.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_56ba6.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_56ba6.dir/CheckIncludeFile.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ijUcK7/CheckIncludeFile.c
+        Linking C executable cmTC_56ba6
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56ba6.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_56ba6.dir/CheckIncludeFile.c.o -o cmTC_56ba6
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ijUcK7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:378 (check_include_file)"
+    checks:
+      - "Looking for inttypes.h"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ttjcEQ"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ttjcEQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ttjcEQ'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_abcbe/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_abcbe.dir/build.make CMakeFiles/cmTC_abcbe.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ttjcEQ'
+        Building C object CMakeFiles/cmTC_abcbe.dir/CheckIncludeFile.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_abcbe.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_abcbe.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_abcbe.dir/CheckIncludeFile.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ttjcEQ/CheckIncludeFile.c
+        Linking C executable cmTC_abcbe
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abcbe.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_abcbe.dir/CheckIncludeFile.c.o -o cmTC_abcbe
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-ttjcEQ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:383 (check_include_file)"
+    checks:
+      - "Looking for paths.h"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1ywSPK"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1ywSPK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_PATHS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1ywSPK'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_31262/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_31262.dir/build.make CMakeFiles/cmTC_31262.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1ywSPK'
+        Building C object CMakeFiles/cmTC_31262.dir/CheckIncludeFile.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_31262.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_31262.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_31262.dir/CheckIncludeFile.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1ywSPK/CheckIncludeFile.c
+        Linking C executable cmTC_31262
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31262.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_31262.dir/CheckIncludeFile.c.o -o cmTC_31262
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1ywSPK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for strcasestr"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-PQV9Q0"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-PQV9Q0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_STRCASESTR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-PQV9Q0'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_62ae5/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_62ae5.dir/build.make CMakeFiles/cmTC_62ae5.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-PQV9Q0'
+        Building C object CMakeFiles/cmTC_62ae5.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=strcasestr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_62ae5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_62ae5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_62ae5.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-PQV9Q0/CheckFunctionExists.c
+        Linking C executable cmTC_62ae5
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62ae5.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=strcasestr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_62ae5.dir/CheckFunctionExists.c.o -o cmTC_62ae5
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-PQV9Q0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for memmem"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-TuADsP"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-TuADsP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_MEMMEM"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-TuADsP'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_31b9e/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_31b9e.dir/build.make CMakeFiles/cmTC_31b9e.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-TuADsP'
+        Building C object CMakeFiles/cmTC_31b9e.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=memmem -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_31b9e.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_31b9e.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_31b9e.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-TuADsP/CheckFunctionExists.c
+        Linking C executable cmTC_31b9e
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31b9e.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=memmem -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_31b9e.dir/CheckFunctionExists.c.o -o cmTC_31b9e
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-TuADsP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for strlcpy"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AJNHaU"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AJNHaU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AJNHaU'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_fb1c2/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_fb1c2.dir/build.make CMakeFiles/cmTC_fb1c2.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AJNHaU'
+        Building C object CMakeFiles/cmTC_fb1c2.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=strlcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_fb1c2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_fb1c2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_fb1c2.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AJNHaU/CheckFunctionExists.c
+        /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AJNHaU/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+          CHECK_FUNCTION_EXISTS(void);
+          ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+        #define CHECK_FUNCTION_EXISTS strlcpy
+                                      ^
+        /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AJNHaU/CheckFunctionExists.c:7:3: note: 'strlcpy' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+        #define CHECK_FUNCTION_EXISTS strlcpy
+                                      ^
+        1 warning generated.
+        Linking C executable cmTC_fb1c2
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb1c2.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=strlcpy -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fb1c2.dir/CheckFunctionExists.c.o -o cmTC_fb1c2
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-AJNHaU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for strtoimax"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-K0gYJA"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-K0gYJA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_STRTOIMAX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-K0gYJA'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_6ae41/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_6ae41.dir/build.make CMakeFiles/cmTC_6ae41.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-K0gYJA'
+        Building C object CMakeFiles/cmTC_6ae41.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=strtoimax -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_6ae41.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_6ae41.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_6ae41.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-K0gYJA/CheckFunctionExists.c
+        Linking C executable cmTC_6ae41
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ae41.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=strtoimax -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6ae41.dir/CheckFunctionExists.c.o -o cmTC_6ae41
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-K0gYJA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for strtoumax"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dHluw9"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dHluw9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_STRTOUMAX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dHluw9'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_942da/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_942da.dir/build.make CMakeFiles/cmTC_942da.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dHluw9'
+        Building C object CMakeFiles/cmTC_942da.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=strtoumax -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_942da.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_942da.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_942da.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dHluw9/CheckFunctionExists.c
+        Linking C executable cmTC_942da
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_942da.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=strtoumax -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_942da.dir/CheckFunctionExists.c.o -o cmTC_942da
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dHluw9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for strtoull"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-HDzxB8"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-HDzxB8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_STRTOULL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-HDzxB8'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_a5ebf/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_a5ebf.dir/build.make CMakeFiles/cmTC_a5ebf.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-HDzxB8'
+        Building C object CMakeFiles/cmTC_a5ebf.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=strtoull -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_a5ebf.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a5ebf.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a5ebf.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-HDzxB8/CheckFunctionExists.c
+        /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-HDzxB8/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoull' [-Wincompatible-library-redeclaration]
+          CHECK_FUNCTION_EXISTS(void);
+          ^
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+        #define CHECK_FUNCTION_EXISTS strtoull
+                                      ^
+        /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-HDzxB8/CheckFunctionExists.c:7:3: note: 'strtoull' is a builtin with type 'unsigned long long (const char *, char **, int)'
+        <command line>:1:31: note: expanded from macro 'CHECK_FUNCTION_EXISTS'
+        #define CHECK_FUNCTION_EXISTS strtoull
+                                      ^
+        1 warning generated.
+        Linking C executable cmTC_a5ebf
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5ebf.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=strtoull -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a5ebf.dir/CheckFunctionExists.c.o -o cmTC_a5ebf
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-HDzxB8'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for setenv"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-obz9Hs"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-obz9Hs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_SETENV"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-obz9Hs'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_93a43/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_93a43.dir/build.make CMakeFiles/cmTC_93a43.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-obz9Hs'
+        Building C object CMakeFiles/cmTC_93a43.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=setenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_93a43.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_93a43.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_93a43.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-obz9Hs/CheckFunctionExists.c
+        Linking C executable cmTC_93a43
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93a43.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=setenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_93a43.dir/CheckFunctionExists.c.o -o cmTC_93a43
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-obz9Hs'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for mkdtemp"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-L4mzY6"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-L4mzY6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_MKDTEMP"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-L4mzY6'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_377b0/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_377b0.dir/build.make CMakeFiles/cmTC_377b0.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-L4mzY6'
+        Building C object CMakeFiles/cmTC_377b0.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=mkdtemp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_377b0.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_377b0.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_377b0.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-L4mzY6/CheckFunctionExists.c
+        Linking C executable cmTC_377b0
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_377b0.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=mkdtemp -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_377b0.dir/CheckFunctionExists.c.o -o cmTC_377b0
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-L4mzY6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for poll"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-mvQxRy"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-mvQxRy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_POLL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-mvQxRy'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_ef249/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_ef249.dir/build.make CMakeFiles/cmTC_ef249.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-mvQxRy'
+        Building C object CMakeFiles/cmTC_ef249.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=poll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_ef249.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ef249.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ef249.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-mvQxRy/CheckFunctionExists.c
+        Linking C executable cmTC_ef249
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef249.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=poll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ef249.dir/CheckFunctionExists.c.o -o cmTC_ef249
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-mvQxRy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for pread"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-XqHXwe"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-XqHXwe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_PREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-XqHXwe'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_4e9e6/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_4e9e6.dir/build.make CMakeFiles/cmTC_4e9e6.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-XqHXwe'
+        Building C object CMakeFiles/cmTC_4e9e6.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=pread -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_4e9e6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_4e9e6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_4e9e6.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-XqHXwe/CheckFunctionExists.c
+        Linking C executable cmTC_4e9e6
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e9e6.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=pread -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4e9e6.dir/CheckFunctionExists.c.o -o cmTC_4e9e6
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-XqHXwe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for unsetenv"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-YdwyRC"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-YdwyRC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_UNSETENV"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-YdwyRC'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_d8ce5/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_d8ce5.dir/build.make CMakeFiles/cmTC_d8ce5.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-YdwyRC'
+        Building C object CMakeFiles/cmTC_d8ce5.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=unsetenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_d8ce5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d8ce5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d8ce5.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-YdwyRC/CheckFunctionExists.c
+        Linking C executable cmTC_d8ce5
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8ce5.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=unsetenv -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d8ce5.dir/CheckFunctionExists.c.o -o cmTC_d8ce5
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-YdwyRC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:400 (check_function_exists)"
+    checks:
+      - "Looking for hstrerror"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-5hCJ5M"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-5hCJ5M"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_HSTRERROR"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-5hCJ5M'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_a9c06/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_a9c06.dir/build.make CMakeFiles/cmTC_a9c06.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-5hCJ5M'
+        Building C object CMakeFiles/cmTC_a9c06.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=hstrerror -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_a9c06.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a9c06.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a9c06.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-5hCJ5M/CheckFunctionExists.c
+        Linking C executable cmTC_a9c06
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9c06.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=hstrerror -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a9c06.dir/CheckFunctionExists.c.o -o cmTC_a9c06
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-5hCJ5M'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:450 (check_function_exists)"
+    checks:
+      - "Looking for getdelim"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W2lrGJ"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W2lrGJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_GETDELIM"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W2lrGJ'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_88d70/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_88d70.dir/build.make CMakeFiles/cmTC_88d70.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W2lrGJ'
+        Building C object CMakeFiles/cmTC_88d70.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=getdelim -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_88d70.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_88d70.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_88d70.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W2lrGJ/CheckFunctionExists.c
+        Linking C executable cmTC_88d70
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d70.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=getdelim -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_88d70.dir/CheckFunctionExists.c.o -o cmTC_88d70
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-W2lrGJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "CMakeLists.txt:455 (check_function_exists)"
+    checks:
+      - "Looking for clock_gettime"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dUzHTI"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dUzHTI"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CLOCK_GETTIME"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dUzHTI'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_b44f2/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_b44f2.dir/build.make CMakeFiles/cmTC_b44f2.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dUzHTI'
+        Building C object CMakeFiles/cmTC_b44f2.dir/CheckFunctionExists.c.o
+        /usr/bin/clang   -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_b44f2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_b44f2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_b44f2.dir/CheckFunctionExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dUzHTI/CheckFunctionExists.c
+        Linking C executable cmTC_b44f2
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b44f2.dir/link.txt --verbose=1
+        /usr/bin/clang  -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b44f2.dir/CheckFunctionExists.c.o -o cmTC_b44f2
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-dUzHTI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:456 (check_symbol_exists)"
+    checks:
+      - "Looking for CLOCK_MONOTONIC"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-FFKmv7"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-FFKmv7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CLOCK_MONOTONIC"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-FFKmv7'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_f80cb/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_f80cb.dir/build.make CMakeFiles/cmTC_f80cb.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-FFKmv7'
+        Building C object CMakeFiles/cmTC_f80cb.dir/CheckSymbolExists.c.o
+        /usr/bin/clang   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_f80cb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_f80cb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_f80cb.dir/CheckSymbolExists.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-FFKmv7/CheckSymbolExists.c
+        Linking C executable cmTC_f80cb
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f80cb.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f80cb.dir/CheckSymbolExists.c.o -o cmTC_f80cb
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-FFKmv7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckStructHasMember.cmake:77 (CHECK_SOURCE_COMPILES)"
+      - "CMakeLists.txt:465 (check_struct_has_member)"
+    checks:
+      - "Performing Test STRUCT_STAT_HAS_ST_BLOCKS"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1M5Eg1"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1M5Eg1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "STRUCT_STAT_HAS_ST_BLOCKS"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1M5Eg1'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_4d8bf/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_4d8bf.dir/build.make CMakeFiles/cmTC_4d8bf.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1M5Eg1'
+        Building C object CMakeFiles/cmTC_4d8bf.dir/src.c.o
+        /usr/bin/clang -DSTRUCT_STAT_HAS_ST_BLOCKS  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_4d8bf.dir/src.c.o -MF CMakeFiles/cmTC_4d8bf.dir/src.c.o.d -o CMakeFiles/cmTC_4d8bf.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1M5Eg1/src.c
+        Linking C executable cmTC_4d8bf
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d8bf.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_4d8bf.dir/src.c.o -o cmTC_4d8bf
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1M5Eg1'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "CMakeLists.txt:471 (check_c_source_runs)"
+    checks:
+      - "Performing Test SNPRINTF_OK"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-IzI1CS"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-IzI1CS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "SNPRINTF_OK_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-IzI1CS'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_853ff/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_853ff.dir/build.make CMakeFiles/cmTC_853ff.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-IzI1CS'
+        Building C object CMakeFiles/cmTC_853ff.dir/src.c.o
+        /usr/bin/clang -DSNPRINTF_OK  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_853ff.dir/src.c.o -MF CMakeFiles/cmTC_853ff.dir/src.c.o.d -o CMakeFiles/cmTC_853ff.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-IzI1CS/src.c
+        Linking C executable cmTC_853ff
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_853ff.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_853ff.dir/src.c.o -o cmTC_853ff
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-IzI1CS'
+        
+      exitCode: 0
+    runResult:
+      variable: "SNPRINTF_OK_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "CMakeLists.txt:506 (check_c_source_runs)"
+    checks:
+      - "Performing Test FREAD_READS_DIRECTORIES_NO"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Tb8qpd"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Tb8qpd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "FREAD_READS_DIRECTORIES_NO_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Tb8qpd'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_b3011/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_b3011.dir/build.make CMakeFiles/cmTC_b3011.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Tb8qpd'
+        Building C object CMakeFiles/cmTC_b3011.dir/src.c.o
+        /usr/bin/clang -DFREAD_READS_DIRECTORIES_NO  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_b3011.dir/src.c.o -MF CMakeFiles/cmTC_b3011.dir/src.c.o.d -o CMakeFiles/cmTC_b3011.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Tb8qpd/src.c
+        Linking C executable cmTC_b3011
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3011.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b3011.dir/src.c.o -o cmTC_b3011
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Tb8qpd'
+        
+      exitCode: 0
+    runResult:
+      variable: "FREAD_READS_DIRECTORIES_NO_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:521 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_REGEX"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Xg8ycw"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Xg8ycw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_REGEX"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Xg8ycw'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_f2ad7/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_f2ad7.dir/build.make CMakeFiles/cmTC_f2ad7.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Xg8ycw'
+        Building C object CMakeFiles/cmTC_f2ad7.dir/src.c.o
+        /usr/bin/clang -DHAVE_REGEX  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_f2ad7.dir/src.c.o -MF CMakeFiles/cmTC_f2ad7.dir/src.c.o.d -o CMakeFiles/cmTC_f2ad7.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Xg8ycw/src.c
+        Linking C executable cmTC_f2ad7
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ad7.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f2ad7.dir/src.c.o -o cmTC_f2ad7
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-Xg8ycw'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:539 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BSD_SYSCTL"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-msX2lm"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-msX2lm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_BSD_SYSCTL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-msX2lm'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_52d12/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_52d12.dir/build.make CMakeFiles/cmTC_52d12.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-msX2lm'
+        Building C object CMakeFiles/cmTC_52d12.dir/src.c.o
+        /usr/bin/clang -DHAVE_BSD_SYSCTL  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_52d12.dir/src.c.o -MF CMakeFiles/cmTC_52d12.dir/src.c.o.d -o CMakeFiles/cmTC_52d12.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-msX2lm/src.c
+        Linking C executable cmTC_52d12
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52d12.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_52d12.dir/src.c.o -o cmTC_52d12
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-msX2lm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:562 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_NEW_ICONV"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SkluDH"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SkluDH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_NEW_ICONV"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SkluDH'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_88f9b/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_88f9b.dir/build.make CMakeFiles/cmTC_88f9b.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SkluDH'
+        Building C object CMakeFiles/cmTC_88f9b.dir/src.c.o
+        /usr/bin/clang -DHAVE_NEW_ICONV  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_88f9b.dir/src.c.o -MF CMakeFiles/cmTC_88f9b.dir/src.c.o.d -o CMakeFiles/cmTC_88f9b.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SkluDH/src.c
+        Linking C executable cmTC_88f9b
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88f9b.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_88f9b.dir/src.c.o -o cmTC_88f9b  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/lib/libiconv.tbd
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-SkluDH'
+        
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/local/Cellar/cmake/3.30.2/share/cmake/Modules/CheckCSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "CMakeLists.txt:580 (check_c_source_runs)"
+    checks:
+      - "Performing Test ICONV_DOESNOT_OMIT_BOM"
+    directories:
+      source: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1g8EEW"
+      binary: "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1g8EEW"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "ICONV_DOESNOT_OMIT_BOM_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1g8EEW'
+        
+        Run Build Command(s): /usr/local/Cellar/cmake/3.30.2/bin/cmake -E env VERBOSE=1 /usr/local/bin/gmake -f Makefile cmTC_eb37c/fast
+        /usr/local/bin/gmake  -f CMakeFiles/cmTC_eb37c.dir/build.make CMakeFiles/cmTC_eb37c.dir/build
+        gmake[1]: Entering directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1g8EEW'
+        Building C object CMakeFiles/cmTC_eb37c.dir/src.c.o
+        /usr/bin/clang -DICONV_DOESNOT_OMIT_BOM  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -MD -MT CMakeFiles/cmTC_eb37c.dir/src.c.o -MF CMakeFiles/cmTC_eb37c.dir/src.c.o.d -o CMakeFiles/cmTC_eb37c.dir/src.c.o -c /Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1g8EEW/src.c
+        Linking C executable cmTC_eb37c
+        /usr/local/Cellar/cmake/3.30.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb37c.dir/link.txt --verbose=1
+        /usr/bin/clang  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_eb37c.dir/src.c.o -o cmTC_eb37c  /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/lib/libiconv.tbd
+        gmake[1]: Leaving directory '/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build/CMakeFiles/CMakeScratch/TryCompile-1g8EEW'
+        
+      exitCode: 0
+    runResult:
+      variable: "ICONV_DOESNOT_OMIT_BOM_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+...

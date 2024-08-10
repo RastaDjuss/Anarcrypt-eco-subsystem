@@ -1,0 +1,15 @@
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-accounts-db = { path = "../accounts-db" }
+solana-program = { version = "1.9", features = ["your-required-feature"] }
+
+[features]
+default = ["ico", "webp"]
+bmp = []
+png = []
+ico = ["bmp", "png"]
+webp = []

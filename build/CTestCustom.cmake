@@ -1,0 +1,1 @@
+file(WRITE /Users/justinlanouette/AnarCrypt-EcO-SubSystem/git/contrib/buildsystems/../../GIT-BUILD-DIR "/Users/justinlanouette/AnarCrypt-EcO-SubSystem/build")

@@ -1,0 +1,64 @@
+[profile.dev]
+opt-level = 0
+debug = true
+split-debuginfo = "unified"  # Platform-specific.
+strip = "none"
+debug-assertions = true
+overflow-checks = true
+lto = false
+panic = 'unwind'
+incremental = true
+codegen-units = 256
+rpath = false
+
+[profile.release]
+opt-level = 3
+debug = false
+split-debuginfo = "unified"  # Platform-specific.
+strip = "none"
+debug-assertions = false
+overflow-checks = false
+lto = false
+panic = 'unwind'
+incremental = false
+codegen-units = 16
+rpath = false
+
+[package]
+name = "hello_world"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[toolchain]
+channel = "1.70.0"  # Use the version compatible with Solana's SDK
+
+# Set the default for dependencies.
+[profile.dev.package."*"]
+opt-level = 2
+
+[dependencies]
+solana-program = "=1.17"
+solana-sdk = "=1.10.32"
+anchor-lang = "=0.23.0"
+anchor-spl = "=0.23.0"
+
+# The `foo` package will use the -Copt-level=3 flag.
+
+[profile.dev.build-override]
+opt-level = 3
+codegen-units = 256
+debug = false # when possible
+
+[profile.release.build-override]
+opt-level = 3
+codegen-units = 256
+
+# The `foo` package will use the -Copt-level=3 flag.
+# [profile.dev.package.foo]
+# opt-level = 3
+
+
+

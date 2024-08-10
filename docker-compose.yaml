@@ -1,0 +1,24 @@
+ersion: '3'
+services:
+  dev-environment:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./development:/home/anarcrypt-eco-subsystemuser/development
+      - ./programs:/home/user/programs
+      - ./docs:/home/user/docs
+    environment:
+      - SOME_ENV_VAR=value
+    ports:
+      - "8080:8080"
+  database:
+    image: postgres:13
+    environment:
+      POSTGRES_PASSWORD: example
+  # Add more services as needed
+
+volumes:
+  development:
+  programs:
+  docs:

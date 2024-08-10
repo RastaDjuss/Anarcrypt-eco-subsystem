@@ -1,0 +1,21 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     "/Users/justinlanouette/Chaos/ChaöS-Token/hello_world/target/release/build/syn-bac1137cf4500393/build_script_build-bac1137cf4500393"
+relocations:
+  - { offsetInCU: 0x1E, offset: 0x1E, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr41drop_in_place$LT$std..process..Output$GT$17h9aee33e5d1647175E', symObjAddr: 0x0, symBinAddr: 0x1000018B0, symSize: 0x50 }
+  - { offsetInCU: 0xCAA, offset: 0xCAA, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr41drop_in_place$LT$std..process..Output$GT$17h9aee33e5d1647175E', symObjAddr: 0x0, symBinAddr: 0x1000018B0, symSize: 0x50 }
+  - { offsetInCU: 0x131F, offset: 0x131F, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr42drop_in_place$LT$std..process..Command$GT$17h5c2c8719143a4621E', symObjAddr: 0x50, symBinAddr: 0x100001900, symSize: 0x250 }
+  - { offsetInCU: 0x32B1, offset: 0x32B1, size: 0x8, addend: 0x0, symName: '__ZN4core3str7pattern13simd_contains28_$u7b$$u7b$closure$u7d$$u7d$17ha6ec5db076df5368E', symObjAddr: 0x4C0, symBinAddr: 0x100046530, symSize: 0x130 }
+  - { offsetInCU: 0x5600, offset: 0x5600, size: 0x8, addend: 0x0, symName: '__ZN4core3str4iter22SplitInternal$LT$P$GT$4next17h3d529c85703ff81cE', symObjAddr: 0x2A0, symBinAddr: 0x100001B50, symSize: 0x220 }
+  - { offsetInCU: 0x5B81, offset: 0x5B81, size: 0x8, addend: 0x0, symName: __ZN18build_script_build4main17h45c79212ef91080cE, symObjAddr: 0x5F0, symBinAddr: 0x100001D70, symSize: 0x8F0 }
+  - { offsetInCU: 0x482, offset: 0x8501, size: 0x8, addend: 0x0, symName: '__ZN70_$LT$alloc..vec..Vec$LT$T$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17heeac5fad619aa316E', symObjAddr: 0x60, symBinAddr: 0x100002680, symSize: 0xE8 }
+  - { offsetInCU: 0x1E, offset: 0x8BB7, size: 0x8, addend: 0x0, symName: '__ZN99_$LT$alloc..collections..btree..map..BTreeMap$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h30966bde988585aeE', symObjAddr: 0x0, symBinAddr: 0x100002770, symSize: 0x3A8 }
+  - { offsetInCU: 0xA24, offset: 0x95BD, size: 0x8, addend: 0x0, symName: '__ZN99_$LT$alloc..collections..btree..map..BTreeMap$LT$K$C$V$C$A$GT$$u20$as$u20$core..ops..drop..Drop$GT$4drop17h30966bde988585aeE', symObjAddr: 0x0, symBinAddr: 0x100002770, symSize: 0x3A8 }
+  - { offsetInCU: 0x1E, offset: 0xB81D, size: 0x8, addend: 0x0, symName: __ZN3std2rt10lang_start17hb9aacc3353f7f948E, symObjAddr: 0x0, symBinAddr: 0x100002B20, symSize: 0x30 }
+  - { offsetInCU: 0x5B, offset: 0xB85A, size: 0x8, addend: 0x0, symName: '__ZN3std2rt10lang_start28_$u7b$$u7b$closure$u7d$$u7d$17h66bbc20990baa127E', symObjAddr: 0x30, symBinAddr: 0x100002B50, symSize: 0x10 }
+  - { offsetInCU: 0x9F, offset: 0xB89E, size: 0x8, addend: 0x0, symName: __ZN3std2rt10lang_start17hb9aacc3353f7f948E, symObjAddr: 0x0, symBinAddr: 0x100002B20, symSize: 0x30 }
+  - { offsetInCU: 0x15E, offset: 0xB95D, size: 0x8, addend: 0x0, symName: '__ZN4core3ops8function6FnOnce40call_once$u7b$$u7b$vtable.shim$u7d$$u7d$17hdaff882ce58e4563E', symObjAddr: 0x40, symBinAddr: 0x100002B60, symSize: 0x10 }
+  - { offsetInCU: 0x1D8, offset: 0xB9D7, size: 0x8, addend: 0x0, symName: '__ZN4core3ptr85drop_in_place$LT$std..rt..lang_start$LT$$LP$$RP$$GT$..$u7b$$u7b$closure$u7d$$u7d$$GT$17ha095b0dab5f45156E', symObjAddr: 0x50, symBinAddr: 0x100002B70, symSize: 0x6 }
+  - { offsetInCU: 0x1E, offset: 0xBA58, size: 0x8, addend: 0x0, symName: __ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17ha491cc0c6dc97412E, symObjAddr: 0x0, symBinAddr: 0x100002B80, symSize: 0x8 }
+  - { offsetInCU: 0xBF, offset: 0xBAF9, size: 0x8, addend: 0x0, symName: __ZN3std10sys_common9backtrace28__rust_begin_short_backtrace17ha491cc0c6dc97412E, symObjAddr: 0x0, symBinAddr: 0x100002B80, symSize: 0x8 }
+...
