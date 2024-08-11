@@ -1,24 +1,30 @@
-ersion: '3'
-services:
-  dev-environment:
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - ./development:/home/anarcrypt-eco-subsystemuser/development
-      - ./programs:/home/user/programs
-      - ./docs:/home/user/docs
-    environment:
-      - SOME_ENV_VAR=value
-    ports:
-      - "8080:8080"
-  database:
-    image: postgres:13
-    environment:
-      POSTGRES_PASSWORD: example
-  # Add more services as needed
+version: '3'
 
-volumes:
-  development:
-  programs:
-  docs:
+services:
+  app1:
+    build:
+      context: ./app1
+      dockerfile: Dockerfile
+    networks:
+      - host-network
+    environment:
+      - DB_HOST=host.docker.internal
+      - DB_PORT=3306
+      # other environment variables as needed
+
+  app2:
+    build:
+      context: ./app2
+      dockerfile: Dockerfile
+    networks:
+      - host-network
+    environment:
+      - DB_HOST=host.docker.internal
+      - DB_PORT=3306
+      # other environment variables as needed
+
+  # other services as needed
+
+networks:
+  host-network:
+    driver: bridge
