@@ -1,29 +1,61 @@
 version: '3'
 
 services:
-  app1:
+  frontend:
     build:
-      context: ./app1
+      context: ./frontend
       dockerfile: Dockerfile
     networks:
       - host-network
     environment:
-      - DB_HOST=host.docker.internal
-      - DB_PORT=3306
-      # other environment variables as needed
+      # Add environment variables as needed
+      VARIABLE_NAME: value
+      ANOTHER_VARIABLE: another_value
 
-  app2:
+  backend:
     build:
-      context: ./app2
+      context: ./backend
       dockerfile: Dockerfile
     networks:
       - host-network
     environment:
-      - DB_HOST=host.docker.internal
+      - DB_HOST=database
       - DB_PORT=3306
-      # other environment variables as needed
+      # Add other environment variables as needed
+      - ANOTHER_VARIABLE=another_value
 
-  # other services as needed
+  database:
+    image: mysql:latest
+    networks:
+      - host-network
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: app_db
+      MYSQL_USER: app_user
+      MYSQL_PASSWORD: app_password
+    volumes:
+      - ./database/data:/var/lib/mysql
+      - ./database/initdb:/docker-entrypoint-initdb.d
+
+  cache:
+    image: redis:latest
+    networks:
+      - host-network
+    environment:
+      # Add environment variables as needed
+      VARIABLE_NAME: value
+      ANOTHER_VARIABLE: another_value
+
+  shared:
+    build:
+      context: ./shared
+      dockerfile: Dockerfile
+    networks:
+      - host-network
+    environment:
+      # Add environment variables as needed
+      VARIABLE_NAME: value
+      ANOTHER_VARIABLE: another_value
 
 networks:
   host-network:
