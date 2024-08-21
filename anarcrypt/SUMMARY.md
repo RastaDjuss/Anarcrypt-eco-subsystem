@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+  * [Test Snippet](readme/test-snippet.md)
 
 ## Getting Started
 
