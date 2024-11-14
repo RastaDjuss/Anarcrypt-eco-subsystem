@@ -1,0 +1,11 @@
+/Users/justinlanouette/anarcrypt-eco-subsystem/target/debug/deps/liburl-5d47f359407bc98a.rmeta: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/host.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/origin.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/parser.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/path_segments.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/slicing.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/quirks.rs
+
+/Users/justinlanouette/anarcrypt-eco-subsystem/target/debug/deps/url-5d47f359407bc98a.d: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/host.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/origin.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/parser.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/path_segments.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/slicing.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/quirks.rs
+
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/lib.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/host.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/origin.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/parser.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/path_segments.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/slicing.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/url-2.5.3/src/quirks.rs:

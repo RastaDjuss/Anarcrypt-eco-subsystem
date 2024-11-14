@@ -1,0 +1,9 @@
+prefix=/Users/justinlanouette/anarcrypt-eco-subsystem/target/debug/build/openssl-sys-1423c6a2bf3107ae/out/openssl-build/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include 
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.4.0
+Requires: libssl libcrypto

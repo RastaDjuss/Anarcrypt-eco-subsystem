@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=/Users/justinlanouette/anarcrypt-eco-subsystem/target/debug/build/mime_guess-68a523e0cbb429e9/out/mime_types_generated.rs

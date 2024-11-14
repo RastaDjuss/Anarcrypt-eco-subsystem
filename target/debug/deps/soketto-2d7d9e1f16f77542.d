@@ -1,0 +1,14 @@
+/Users/justinlanouette/anarcrypt-eco-subsystem/target/debug/deps/libsoketto-2d7d9e1f16f77542.rmeta: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/base.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/connection.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/data.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/extension.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake/client.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake/server.rs
+
+/Users/justinlanouette/anarcrypt-eco-subsystem/target/debug/deps/soketto-2d7d9e1f16f77542.d: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/base.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/connection.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/data.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/extension.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake/client.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake/server.rs
+
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/lib.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/base.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/connection.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/data.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/extension.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake/client.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/soketto-0.7.1/src/handshake/server.rs:
+
+# env-dep:CARGO_PKG_VERSION=0.7.1

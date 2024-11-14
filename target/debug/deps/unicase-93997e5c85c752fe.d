@@ -1,0 +1,10 @@
+/Users/justinlanouette/anarcrypt-eco-subsystem/anarcrypt/target/debug/deps/libunicase-93997e5c85c752fe.rmeta: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/ascii.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/mod.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/map.rs
+
+/Users/justinlanouette/anarcrypt-eco-subsystem/anarcrypt/target/debug/deps/libunicase-93997e5c85c752fe.rlib: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/ascii.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/mod.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/map.rs
+
+/Users/justinlanouette/anarcrypt-eco-subsystem/anarcrypt/target/debug/deps/unicase-93997e5c85c752fe.d: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/ascii.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/mod.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/map.rs
+
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/lib.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/ascii.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/mod.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/unicase-2.8.0/src/unicode/map.rs:

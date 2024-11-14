@@ -1,0 +1,10 @@
+/Users/justinlanouette/anarcrypt-eco-subsystem/target/debug/deps/libhidapi-dd6d53d1f2f817f3.rmeta: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/error.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/ffi.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/hidapi.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/hidapi/macos.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/macos.rs
+
+/Users/justinlanouette/anarcrypt-eco-subsystem/target/debug/deps/hidapi-dd6d53d1f2f817f3.d: /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/lib.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/error.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/ffi.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/hidapi.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/hidapi/macos.rs /Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/macos.rs
+
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/lib.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/error.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/ffi.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/hidapi.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/hidapi/macos.rs:
+/Users/justinlanouette/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hidapi-2.6.3/src/macos.rs:
