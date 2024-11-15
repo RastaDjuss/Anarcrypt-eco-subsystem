@@ -1,0 +1,2 @@
+Metaverse-Developement/Crypto/ChaöS-Token/test-ledger/rocksdb/*.log filter=lfs diff=lfs merge=lfs -text
+Metaverse-Developement/Crypto/ChaöS-Token/test-ledger/rocksdb/*.sst filter=lfs diff=lfs merge=lfs -text
