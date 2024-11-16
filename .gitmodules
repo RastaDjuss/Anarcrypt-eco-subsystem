@@ -1,11 +1,14 @@
-[submodule "anarcrypt-blockchain/frontend/Metaverse-Developement/Blockchains/solana"]
-        path = anarcrypt-blockchain/frontend/Metaverse-Developement/Blockchains/solana
-        url = git@github.com:RastaDjuss/solana.git
+[submodule "justinlanouette/Metaverse-Developement/Blockchains/agave"]
+	path = justinlanouette/Metaverse-Developement/Blockchains/agave
+	url = https://github.com/anza-xyz/agave.git
 
 [submodule "target/rustup-components-history"]
         path = target/rustup-components-history
         url = https://github.com/rust-lang/rustup-components-history.git
 
 [submodule "anarcrypt-tokens"]
-	path = tokens
-	url = git@github.com:RastaDjuss/anarcrypt-tokens.git
+	path = anarcrypt-tokens
+	url = https://github.com/RastaDjuss/anarcrypt-tokens.git
+[submodule "justinlanouette/Metaverse-Developement/Blockchains/solana-cookbook-master"]
+	path = justinlanouette/Metaverse-Developement/Blockchains/solana-cookbook-master
+	url = https://github.com/solana-developers/solana-cookbook.git
