@@ -1,21 +1,11 @@
-[submodule "anarcrypt-blockchain/frontend/Metaverse-Developement/Blockchains/Blockchain-Development-Resources"]
-        path = anarcrypt-blockchain/frontend/Metaverse-Developement/Blockchains/Blockchain-Development-Resources
-        url = https://github.com/RastaDjuss/Blockchain-Development-Resources.git
-
 [submodule "anarcrypt-blockchain/frontend/Metaverse-Developement/Blockchains/solana"]
         path = anarcrypt-blockchain/frontend/Metaverse-Developement/Blockchains/solana
         url = git@github.com:RastaDjuss/solana.git
 
-[submodule "Anarkctypt/rustup-components-history"]
-        path = Anarkctypt/rustup-components-history
-        url = <url-to-rustup-components-history-repo>
+[submodule "target/rustup-components-history"]
+        path = target/rustup-components-history
+        url = https://github.com/rust-lang/rustup-components-history.git
 
-[submodule "anarcrypt-tokens/PUTSCH-Token"]
-    path = anarcrypt-tokens/PUTSCH-Token
-    url = git@github.com:RastaDjuss/anarcoin-2.0.git
-[submodule "PUTSCH-Token"]
-	path = PUTSCH-Token
-	url = git@github.com:RastaDjuss/anarcrypt-tokens.git
 [submodule "anarcrypt-tokens"]
-	path = anarcrypt-tokens
+	path = tokens
 	url = git@github.com:RastaDjuss/anarcrypt-tokens.git
