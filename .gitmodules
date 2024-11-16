@@ -9,3 +9,13 @@
 [submodule "Anarkctypt/rustup-components-history"]
         path = Anarkctypt/rustup-components-history
         url = <url-to-rustup-components-history-repo>
+
+[submodule "anarcrypt-tokens/PUTSCH-Token"]
+    path = anarcrypt-tokens/PUTSCH-Token
+    url = git@github.com:RastaDjuss/anarcoin-2.0.git
+[submodule "PUTSCH-Token"]
+	path = PUTSCH-Token
+	url = git@github.com:RastaDjuss/anarcrypt-tokens.git
+[submodule "anarcrypt-tokens"]
+	path = anarcrypt-tokens
+	url = git@github.com:RastaDjuss/anarcrypt-tokens.git
