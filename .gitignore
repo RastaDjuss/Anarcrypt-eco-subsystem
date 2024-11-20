@@ -20,3 +20,8 @@ Thumbs.db
 # Ignore backup and temporary files
 *.bak
 *.tmp
+
+
+# Added by cargo
+
+/target
