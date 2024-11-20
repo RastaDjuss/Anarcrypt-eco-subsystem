@@ -1,5 +1,6 @@
 # Project Setup
-
+to clone this repo you will have to clone submodule also using:
+git clone --recurse-submodules https://github.com/RastaDjuss/anarcrypt-tokens.git
 ## Install Rust and Solana CLI
 
 To install Rust and Solana CLI, run the following commands:
