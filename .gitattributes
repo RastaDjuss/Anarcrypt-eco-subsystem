@@ -4,3 +4,4 @@
 *.kotlin text eol=lf
 *.mf text eol=lf
 anarcrypt-tokens filter=lfs diff=lfs merge=lfs -text
+file1 filter=lfs diff=lfs merge=lfs -text
