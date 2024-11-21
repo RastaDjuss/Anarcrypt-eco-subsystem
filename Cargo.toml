@@ -1,29 +1,16 @@
 [package]
-name = "anarcrypt-eco-subsystem"
+name = "anarcrypt"
 version = "0.1.0"
-authors = ["Justin AnarchSun<AnarCoin.Collective@gmail.com>"]
 edition = "2021"
 
-[workspace]
-members = [
-    "anarcrypt-tokens",  # Path to your tokens submodule
-    # You can add other crates here if needed
-]
-
 [dependencies]
-anchor = "0.30"
-log = "0.4.22"
-serde = "1.0.215"
-serde_json = "1.0.133"
-solana-cli = "2.1.1"
-solana-sdk = "2.1.1"
+agave = "0.1.0"
+solana-cli = "2.1.0"
+solana-test-validator = "2.1.0"
+solana-tokens = "2.1.0"
 spl-token = "7.0.0"
-tokio = "1.41.1"
-wasm-bindgen = "0.2.95"
-wasmer = "5.0.1"
- # or the latest version available
-
-
+spl-associated-token-account = "1.0.0"
+solana-program = "2.1.1"
 
 [lib]
 path = "src/lib.rs"  # This is the library target name

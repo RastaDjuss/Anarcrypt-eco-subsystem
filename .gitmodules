@@ -1,0 +1,3 @@
+[submodule "anarcrypt-tokens"]
+	path = anarcrypt-tokens
+	url = https://github.com/RastaDjuss/anarcrypt-tokens.git
