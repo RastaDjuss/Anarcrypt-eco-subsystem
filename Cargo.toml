@@ -8,13 +8,13 @@ edition = "2021"
 members = [
     "anarcrypt-tokens",
     "anarco-program",
+    "agave",
+    "solana_cookbook",
       # Add other submodule paths here
     # No need to list the root package, as it's implied
 ]
 
 [dependencies]
-ed25519-dalek = "2.1.1"
-log = "0.4.22"
 serde = "1.0.215"
 serde_json = "1.0.133"
 solana-cli = "2.1.1"
