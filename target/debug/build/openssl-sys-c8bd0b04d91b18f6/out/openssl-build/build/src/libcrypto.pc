@@ -1,0 +1,13 @@
+prefix=/Users/justinlanouette/Anarcrypt-eco-subsystem/target/debug/build/openssl-sys-c8bd0b04d91b18f6/out/openssl-build/build/src
+exec_prefix=${prefix}
+libdir=${exec_prefix}
+includedir=${prefix}/include ${prefix}/./include 
+enginesdir=${libdir}/engines
+modulesdir=${libdir}/providers
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.4.0
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${prefix}/include  -I${prefix}/./include 
